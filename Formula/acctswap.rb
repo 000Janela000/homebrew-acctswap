@@ -2,28 +2,28 @@
 class Acctswap < Formula
   desc "Switch the account every Claude Code session on a machine uses"
   homepage "https://github.com/000Janela000/acctswap"
-  version "0.2.0"
+  version "0.2.1"
   license any_of: ["MIT", "Apache-2.0"]
 
   on_macos do
     on_arm do
-      url "https://github.com/000Janela000/acctswap/releases/download/v0.2.0/acctswap-aarch64-apple-darwin.tar.gz"
-      sha256 "938653553a5cb2a9dd9a9a03ba87ffc4c2e7ef2f0434ad10da82d49b41d4e983"
+      url "https://github.com/000Janela000/acctswap/releases/download/v0.2.1/acctswap-aarch64-apple-darwin.tar.gz"
+      sha256 "612a125c31c1d4e5f10ff60dcc2ea272357273395d507e5cf681f91a23eadc20"
     end
     on_intel do
-      url "https://github.com/000Janela000/acctswap/releases/download/v0.2.0/acctswap-x86_64-apple-darwin.tar.gz"
-      sha256 "70f383d48980fd43db08a9a8a04ad7a9a74e573b169c25860473870935061a3c"
+      url "https://github.com/000Janela000/acctswap/releases/download/v0.2.1/acctswap-x86_64-apple-darwin.tar.gz"
+      sha256 "dca5b1782426a08667c41d5d8a7a229892173353160b1b12381811458eb212d8"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/000Janela000/acctswap/releases/download/v0.2.0/acctswap-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "857b3e1206a0da48d70214f801151af6abb52bc66eb7adbc2d3b94a7a2599d86"
+      url "https://github.com/000Janela000/acctswap/releases/download/v0.2.1/acctswap-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "30bffcb4d5314905cbdc4db3cf3089073d14df2c61b589a465c7d82ca3046c28"
     end
     on_intel do
-      url "https://github.com/000Janela000/acctswap/releases/download/v0.2.0/acctswap-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "16cfb227464bac8ff9a081c9ccb5dbeeed37877ea8d5288362ea2bd16480f35e"
+      url "https://github.com/000Janela000/acctswap/releases/download/v0.2.1/acctswap-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "ee0ef93440b8e45c77bf7774d89c45b3753ce345239f211876166a46431e78bf"
     end
   end
 
